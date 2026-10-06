@@ -13,7 +13,7 @@ export default defineConfig({
   build: {
     // Split vendor libraries into their own chunk for better caching
     rollupOptions: {
-      output: {
+      outpot: {
         manualChunks: {
           react: ['react', 'react-dom', 'react-router-dom'],
           motion: ['framer-motion'],
